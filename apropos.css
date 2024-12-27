@@ -1,0 +1,78 @@
+body {
+    font-family: 'Arial', sans-serif; /* Définition de la police par défaut */
+    margin: 0; /* Suppression des marges par défaut */
+    padding: 0; /* Suppression des espacements par défaut */
+    color: #333; /* Couleur principale du texte */
+    height: 100%;
+    display: flex; /* Utilise Flexbox pour aligner les éléments */
+    flex-direction: column; /* Aligne les éléments en colonne */
+}
+
+.container {
+    width: 90%; /* Largeur maximale de 90% de l'écran */
+    max-width: 1200px; /* Limite la largeur maximale à 1200px */
+    margin: 0 auto; /* Centre le contenu horizontalement */
+}
+
+/* En-tête */
+header {
+    background: #0d6efd; /* Couleur de fond bleu */
+    color: #fff; /* Couleur blanche pour le texte */
+    padding: 20px 0; /* Espacement interne vertical */
+}
+
+header .logo {
+    font-size: 24px; /* Taille du texte du logo */
+    font-weight: bold; /* Texte en gras */
+}
+
+header nav ul {
+    list-style: none; /* Suppression des puces de la liste */
+    padding: 0; /* Suppression des espacements internes */
+    display: flex; /* Utilisation de Flexbox pour l'alignement */
+    justify-content: flex-end; /* Positionnement des éléments à droite */
+    gap: 20px; /* Espacement entre les éléments */
+}
+a:hover{
+    color:black;
+}
+a:hover::after{
+    scale: 1 1;
+}
+
+header nav ul li a {
+    color: #fff; /* Couleur blanche pour les liens */
+    text-decoration: none; /* Suppression du soulignement */
+    font-weight: bold; /* Texte en gras */
+}
+.apropos {
+    padding: 40px 0; /* Espacement interne vertical */
+    background: #fff; /* Couleur de fond blanche */
+    text-align: center; /* Centrage du texte */
+}
+
+.apropos h2 {
+    margin-bottom: 20px; /* Espacement sous le titre */
+    color: #0d6efd; /* Couleur du titre bleu */
+}
+footer {
+    background: #6687e3; /* Couleur de fond bleu clair */
+    color: #fff; /* Couleur blanche pour le texte */
+    padding: 20px 0; /* Espacement interne vertical */
+    text-align: center ; /* Centrage du texte */
+    margin-top: auto; /* Pousse le footer vers le bas si nécessaire */
+    margin-top: auto; /* Place le footer à la fin du contenu, ou en bas si le contenu est insuffisant */
+}
+
+footer nav ul {
+    list-style: none; /* Suppression des puces de la liste */
+    padding: 0; /* Suppression des espacements internes */
+    display: flex; /* Utilisation de Flexbox */
+    justify-content: center; /* Centre les liens horizontalement */
+    gap: 15px; /* Espacement entre les liens */
+}
+
+footer nav ul li a {
+    color: #fff; /* Couleur blanche pour les liens */
+    text-decoration: none; /* Suppression du soulignement */
+}
